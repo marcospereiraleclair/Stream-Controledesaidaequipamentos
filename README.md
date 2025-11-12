@@ -38,4 +38,12 @@ As ações são registradas em arquivos `.csv` e apresentadas em tempo real em d
 ---
 
 ## 📁 Estrutura de Diretórios
-
+projeto/
+├── templates/
+│ └── 234x234.png # Logo da empresa
+├── ativos_glpi.csv # Base de ativos exportada do GLPI
+├── saida_equipamentos.csv # Registros de saídas
+├── saida_dashboard.csv # Dados para o dashboard
+├── main.py # Código principal (Streamlit)
+├── requirements.txt # Dependências do projeto
+└── README.md
