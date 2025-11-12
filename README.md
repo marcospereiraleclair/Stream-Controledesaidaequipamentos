@@ -24,6 +24,7 @@ As ações são registradas em arquivos `.csv` e apresentadas em tempo real em d
 - Confirmação e registro de entrada pela portaria.  
 - Dashboard com métricas e gráficos.  
 - Logs automáticos de movimentações.
+- Utilizamos com BASE CSV computadores do GLPI para trazer informaçoes todos usuarios, computadores que esta com cada usuario. 
 
 ---
 
