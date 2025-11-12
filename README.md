@@ -47,3 +47,24 @@ projeto/
 - ├── main.py # Código principal (Streamlit)
 - ├── requirements.txt # Dependências do projeto
 - └── README.md
+
+## 🚀 Instalação
+
+### 1️⃣ Clonar o repositório
+```bash
+git clone https://github.com/seuusuario/controle-saida-equipamentos.git
+cd controle-saida-equipamentos
+
+Instalar dependências
+pip install -r requirements.txt
+
+Excecução
+streamlit run main.py
+streamlit run main.py --server.address=0.0.0.0 --server.port=850
+
+##🔐 Perfis de Acesso
+Usuário	        Senha        	Perfil	          Acesso a Funções
+colaborador	    1234      	Colaborador        	Registrar saída
+portaria	      1234	         Portaria	        Confirmar saída / registrar entrada
+supervisor    	sup123	      Supervisor    	  Autorizar ou negar saída
+admin	          admin	        Administrador    	Todos os módulos e dashboard
